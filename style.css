@@ -1,83 +1,86 @@
 body {
-    background-color: #000000;
-    background-image: url("https://i.imgur.com/Dl5zSaL.png");
-    background-size: 50%;
-    position: relative;
-    background-repeat: no-repeat;
-   height: 100%;
-   background-attachment: fixed;
+  background-color: #000000;
+  background-image: url("https://i.imgur.com/vd2AcHE.png");
+  background-size: 40%;
+  position: relative;
+  background-repeat: no-repeat;
+ height: 100%;
+ background-attachment: fixed;
 }
 
 body pre{
-  color: purple;
+color: purple;
 }
 
 body::before{
-    height: 350%;
-    width: 100%;
-     background-color: rgba(0, 0, 0, .7);
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    content: "";
+  height: 350%;
+  width: 100%;
+   background-color: rgba(0, 0, 0, .7);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  content: "";
 } 
 body p{
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 body h4{
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 body img{
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 body a{
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 body pre{
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 body hr{
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 body h2{
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 body h1{
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 .button{
-  background-color: #bb00ff; /* Green */
-  border: none;
-  color: purple;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+background-color: #bb00ff; /* Green */
+border: none;
+color: purple;
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
 }
 
 .button{
-  background-color: purple; 
+  background-color: #806a00; 
   color: #000000; 
-  border: 2px solid #800080;
+  border: 2px solid #ffffff;
+  font-size: 16px;
 }
 
 .button:hover {
-  background-color: #bb00ff;
-  color: purple;
+  background-color: #000000;
+  color: white;
+    border: 5px solid #806a00;
+  font-size: 20px;
 }
+
 
 .button {width: 50%;}
 .button {border-radius: 12px;}
